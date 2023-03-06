@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """Return number of subscribers for a given subreddit"""
+
 import requests
 
 
 def number_of_subscribers(subreddit):
+    """The funct"""
 
     headers = {'User-Agent': 'MyAPI/0.0.1'}
     subreddit_url = "https://reddit.com/r/{}.json".format(subreddit)
